@@ -8,7 +8,7 @@ function Ex6()
     end
     ts = 1/Fs;
     t = ts:ts:Nr_esantioane*ts;
-    plot(t,v); % semnalul continuu în timp absolut
+    plot(t,v); % semnalul continuu in timp absolut
   
     %stem(n,v) %semnalul discret in functie de n
     grid 
